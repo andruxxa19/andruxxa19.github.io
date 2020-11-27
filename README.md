@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="yandex-verification" content="f7d61728f5271b62" />
