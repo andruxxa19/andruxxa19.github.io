@@ -49,6 +49,27 @@ body {
 .open .label::after {
    content: "▲";
 }
+div.classs2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+        margin-bottom:20px;
+}
+@-webkit-keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
 .label::after {
   content: "▼";
   font-size: 12px;
@@ -106,6 +127,7 @@ window.location=selectedopt.value
 
 <div><p style="float:  right;  margin: 7px 40px 7px 7px;"><img  width="550px" height="400px" src="456.jpg"></p>
     <h1>Как правильно использовать маску?</h1><p  style="color: #333333; font-family: Georgia, serif; font-size: 18px; line-height: 28px; margin: 0 0 28px;">Коронавирус – это целое семейство вирусов, которое включает более 30 видов. Виды объединены в 2 подсемейства. Они могут заражать не только человека, но и животных – кошек, собак, птиц, свиней и крупный рогатый скот. Вирус был открыт в 1960 году и получил свое название из-за ворсинок на своей оболочке, стремящихся в различные стороны и напоминающих корону. Известно, что коронавирусы могут вызывать целый ряд заболеваний – от обычной простуды до тяжелого острого респираторного синдрома (ТОРС или «атипичной пневмонии»).</p></div>     
+    <div class="classs2"></div>
         
     
 </div>
